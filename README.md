@@ -57,15 +57,15 @@ The code is organized into three main components:
 Run the following script:
 
 ```matlab
-Data_Generation/generate_e2e4_bundle_pruned.m
+Data_Generation/generate_data.m
 ```
 
 This generates:
 
 ```
-combined/train.mat
-combined/valid.mat
-combined/test.mat
+dataset/combined/train.mat
+dataset/combined/valid.mat
+dataset/combined/test.mat
 ```
 
 ---
@@ -75,7 +75,7 @@ combined/test.mat
 1. Move dataset files:
 
 ```
-combined/*.mat → CR_Heterogeneity_Fig2/data/
+dataset/combined/*.mat → CR_Heterogeneity_Fig2/data/
 ```
 
 2. Run:
@@ -93,7 +93,7 @@ This script generates the CR heterogeneity analysis figure used in Fig. 2.
 1. Move dataset files:
 
 ```
-combined/*.mat → Main_Experiment/data/
+dataset/combined/*.mat → Main_Experiment/data/
 ```
 
 2. Run:

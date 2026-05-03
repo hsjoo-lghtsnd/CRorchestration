@@ -32,7 +32,7 @@ The code is organized into three main components:
 ```
 .
 ├── Data_Generation/
-│   └── generate_e2e4_bundle_pruned.m
+│   └── generate_data.m
 │
 ├── CR_Heterogeneity_Fig2/
 │   ├── main_pipeline.m

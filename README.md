@@ -134,12 +134,6 @@ Each `.mat` file contains pre-generated channel samples used for:
 
 ## Notes
 
-* Run all scripts from the **project root directory**:
-
-```matlab
-addpath(genpath(pwd));
-```
-
 * Data generation requires MATLAB toolboxes, but:
 
   * Fig. 2 reproduction
